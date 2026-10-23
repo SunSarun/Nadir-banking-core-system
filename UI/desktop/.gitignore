@@ -1,0 +1,49 @@
+
+# ==========================================
+# CMake Build Artifacts & Generated Outputs
+# ==========================================
+build/
+.cmake/
+CMakeUserPresets.json
+
+# ==========================================
+# C++ / Compiler Generated Files
+# ==========================================
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+
+# ==========================================
+# Qt / AUTOMOC Generated Files
+# ==========================================
+*_autogen/
+*.moc
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+
+# ==========================================
+# IDEs & Editor Configurations
+# ==========================================
+# VS Code
+.vscode/
+!.vscode/extensions.json
+
+# CLion / JetBrains
+.idea/
+cmake-build-*/
+
+# Vim / Emacs swap files
+*~
+*.swp
+*.swo
+
+# ==========================================
+# System / OS Level Files
+# ==========================================
+.DS_Store
+Thumbs.db
